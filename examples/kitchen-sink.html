@@ -15,8 +15,8 @@
     </style>
   </head>
   
-  <body>
-    <div class="navbar navbar-default navbar-static-top">
+  <body class="fixed-nav">
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         
         <div class="navbar-header">
@@ -173,6 +173,7 @@
             <div class="panel-body">
             <p class="lead">This is a lead paragraph.</p>
             <p>This is an <b>ordinary paragraph</b> that is <i>long enough</i> to wrap to <u>multiple lines</u> so that you can see how the line spacing looks.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In erat mauris, faucibus quis pharetra sit amet, pretium ac libero. Etiam vehicula eleifend bibendum. Morbi gravida metus ut sapien condimentum sodales mollis augue sodales. Vestibulum quis quam at sem placerat aliquet. Curabitur a felis at sapien ullamcorper fermentum. Mauris molestie arcu et lectus iaculis sit amet eleifend eros posuere. Fusce nec porta orci.</p>
             <p class="text-muted">Muted color paragraph.</p>
             <p class="text-warning">Warning color paragraph.</p>
             <p class="text-danger">Danger color paragraph.</p>
@@ -194,6 +195,19 @@
                       <li>With Nested Children</li>
                     </ul>
                   </li>
+                  <li>Can Also Work
+                    <ul>
+                      <li>With Nested Children
+                        <ul>
+                          <li>With Nested Children
+                            <ul>
+                              <li>With Nested Children</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                   <li>Adds Bullets to Page</li>
                 </ul>
               </div>
@@ -205,12 +219,24 @@
                       <li>With Nested Children</li>
                     </ol>
                   </li>
+                  <li>Can Also Work
+                    <ol>
+                      <li>With Nested Children
+                        <ol>
+                          <li>With Nested Children</li>
+                        </ol>
+                      </li>
+                    </ol>
+                  </li>
                   <li>Adds Bullets to Page</li>
                 </ol>
               </div>
             </div>
             <hr>
-            <pre>function preFormatting() {  // looks like this;  var something = somethingElse;  return true;}</pre>
+<pre>function preFormatting() {  // looks like this;  var something = somethingElse;  return true;}
+
+  // and a shorter line
+</pre>
             </div>
           </div>
         </div>
@@ -295,7 +321,7 @@
       <div class="row">
         <div class="col-lg-8">
           <div class="panel panel-default" id="buttons">
-            <div class="panel-heading">Buttons
+            <div class="panel-heading"><a href="#buttons">Buttons</a>
             </div>
             <div class="panel-body">
               <p>

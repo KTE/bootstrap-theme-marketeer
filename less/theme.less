@@ -1,7 +1,7 @@
 /*!
- * Your Theme Name v0.1.0
+ * twbs-Marketeer v0.0.1
  *
- * Copyright 2013 Your Name
+ * Copyright 2013 Max F. 
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -12,3 +12,34 @@
 @import "bootstrap.less";
 
 // Add CSS Customizations to your theme here.
+
+body {
+  font-size: 16px;
+}
+
+// class to align body to fixed navbar
+body.fixed-nav { padding-top: 80px; }
+
+/* HEADINGS */
+
+/* TODO: consistens weights */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6, {
+  
+  code, kbd, pre {
+    font-weight: 500;
+  }
+  
+}
+
+/*Lists*/
+
+ul ul, ol ol {
+  padding-left: 1em;
+}
+
+/*   FIXES / TODO: solve upstream      */
+kbd {
+  font-family: @font-family-monospace;
+}

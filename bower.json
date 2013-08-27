@@ -10,6 +10,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap":"3.0.x" 
+    "bootstrap": "3.0.x",
+    "font-awesome": "3.2.x"
   }
 }
